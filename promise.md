@@ -8,9 +8,9 @@ promise这个东西吧，它一直困扰我很久很久了，但是之前未能�
 
 > The Promise object represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.
 
->* **一种异步编程的解决方案**
->* 有了Promise对象，就可以将异步操作以同步操作的流程表达出来，避免了层层嵌套的回调函数
->* then方式是定义在Promise.prototype上的，所以Promise实例就能调用这个方法，添加状态改变时的回调函数了
+> **一种异步编程的解决方案**<br/>
+> 有了Promise对象，就可以将异步操作以同步操作的流程表达出来，避免了层层嵌套的回调函数<br/>
+> then方式是定义在Promise.prototype上的，所以Promise实例就能调用这个方法，添加状态改变时的回调函数了
 
 ## 特点
 
