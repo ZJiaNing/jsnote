@@ -148,7 +148,7 @@ p.then(res => {
 ```
 
 ### #2
-增加p3，不带catch
+增加p3，不带catch，则最终的就会被p的catch捕获了
  ```js
  var p3 = new Promise((resolve, reject) => {
    reject('Error');
